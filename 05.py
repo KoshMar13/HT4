@@ -49,6 +49,7 @@ fir = polyPairs(MyStrip(inp1))
 sec = polyPairs(MyStrip(inp2))
 answer = polySum(fir, sec)
 print(f'Сумма полиномов равна (формат=[коэффициент, степень Х]: {answer}')
+fout.write(str(answer))
 
 finp1.close()
 finp2.close()

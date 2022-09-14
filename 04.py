@@ -29,3 +29,5 @@ ans.append('=0')
 fout = open('output.txt', 'w')
 fout.write(''.join(ans))
 fout.close()
+
+# Содержимое файла output.txt: 86*x**2+58*x-66=0
